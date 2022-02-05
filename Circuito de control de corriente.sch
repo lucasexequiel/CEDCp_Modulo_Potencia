@@ -1,0 +1,742 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 13
+Title ""
+Date ""
+Rev "V01"
+Comp ""
+Comment1 ""
+Comment2 "creativecommons.orgn/licenses/by/4.0/"
+Comment3 "License: CC BY 4.0"
+Comment4 "Author: Ibañez Lucas"
+$EndDescr
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 61B5DD47
+P 1250 2900
+AR Path="/61B5DD47" Ref="R?"  Part="1" 
+AR Path="/61AE72E1/61B5DD47" Ref="R32"  Part="1" 
+F 0 "R32" H 1250 3000 50  0000 C CNN
+F 1 "22" H 1250 2800 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 1250 2900 50  0001 L BNN
+F 3 "" H 1250 2900 50  0001 L BNN
+F 4 "0207" H 1250 2900 50  0001 L BNN "Package"
+F 5 "0" H 1250 2900 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 1250 2900 50  0001 L BNN "Comment"
+F 7 "Compliant" H 1250 2900 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 1250 2900 50  0001 L BNN "Power_Rating"
+	1    1250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B5DD88
+P 2300 3950
+AR Path="/61B5DD88" Ref="R?"  Part="1" 
+AR Path="/61AE72E1/61B5DD88" Ref="R33"  Part="1" 
+F 0 "R33" H 2370 3996 50  0000 L CNN
+F 1 "0,05" H 2370 3905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT" V 2230 3950 50  0001 C CNN
+F 3 "~" H 2300 3950 50  0001 C CNN
+	1    2300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLZ44N Q?
+U 1 1 61B5DDAF
+P 2200 2900
+AR Path="/61B5DDAF" Ref="Q?"  Part="1" 
+AR Path="/61AE72E1/61B5DDAF" Ref="U55"  Part="1" 
+F 0 "U55" H 2500 2900 50  0000 L CNN
+F 1 "IRLZ44N" H 2400 2800 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2450 2825 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 2200 2900 50  0001 L CNN
+	1    2200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 ROp?
+U 1 1 61B5DDBA
+P 1900 3100
+AR Path="/61B5DDBA" Ref="ROp?"  Part="1" 
+AR Path="/61AE72E1/61B5DDBA" Ref="ROp1"  Part="1" 
+F 0 "ROp1" V 1854 3169 50  0000 L CNN
+F 1 "1k" V 1945 3169 50  0000 L CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 1900 3100 50  0001 L BNN
+F 3 "" H 1900 3100 50  0001 L BNN
+F 4 "0207" H 1900 3100 50  0001 L BNN "Package"
+F 5 "0" H 1900 3100 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 1900 3100 50  0001 L BNN "Comment"
+F 7 "Compliant" H 1900 3100 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 1900 3100 50  0001 L BNN "Power_Rating"
+	1    1900 3100
+	0    1    1    0   
+$EndComp
+Text Notes 4100 1050 0    118  Italic 24
+Circuito de control de corriente
+$Comp
+L JJM1-12V:JJM1-12V U17
+U 1 1 61BD5BDA
+P 3150 3250
+F 0 "U17" V 2800 3250 50  0000 C CNN
+F 1 "-" H 3150 2874 50  0000 C CNN
+F 2 "HRS4H-S-DC12V-1C:HRS4HSDC12V1C" H 3150 3250 50  0001 L BNN
+F 3 "" H 3150 3250 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 3150 3250 50  0001 L BNN "STANDARD"
+F 5 "13.9mm" H 3150 3250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Panasonic Electric" H 3150 3250 50  0001 L BNN "MANUFACTURER"
+F 7 "" H 3150 3250 50  0001 L BNN "PARTREV"
+	1    3150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 3800 2950 3650
+Wire Wire Line
+	2300 4100 2300 4600
+$Comp
+L A6841SLW-20-T:A6841SLW-20-T UB2
+U 1 1 61CE9F4F
+P 4950 6200
+F 0 "UB2" H 4950 7170 50  0000 C CNN
+F 1 "A6841SLW-20-T" H 4950 7079 50  0000 C CNN
+F 2 "DIL20:DIP254P762X533-20P" H 4950 6200 50  0001 L BNN
+F 3 "" H 4950 6200 50  0001 L BNN
+	1    4950 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6800 5750 6800
+Wire Wire Line
+	5750 6800 5750 6900
+Wire Wire Line
+	5650 6900 5750 6900
+Connection ~ 5750 6900
+Wire Wire Line
+	5750 6900 5750 6950
+Wire Wire Line
+	4250 5700 3800 5700
+Wire Wire Line
+	3800 5600 4250 5600
+Wire Wire Line
+	4250 5800 3800 5800
+Wire Wire Line
+	5650 5500 5750 5500
+Wire Wire Line
+	5750 5500 5750 6800
+Connection ~ 5750 6800
+Wire Wire Line
+	4250 5900 3800 5900
+Wire Wire Line
+	4250 6000 3800 6000
+Wire Wire Line
+	4250 5500 4150 5500
+Wire Wire Line
+	4150 5500 4150 6500
+Wire Wire Line
+	4250 6500 4150 6500
+Connection ~ 4150 6500
+Wire Wire Line
+	4150 6500 4150 6600
+Text HLabel 10600 4600 2    51   Input Italic 10
+CEP_Input-
+Text HLabel 10600 2150 2    51   Input Italic 10
+CEP_Input+
+Text HLabel 2950 3800 3    51   Input Italic 10
++12V2
+Text HLabel 3800 6000 0    51   Input Italic 10
++3.3V
+Text HLabel 3800 5900 0    51   Input Italic 10
+fromMicroC_A6841ST1
+Text HLabel 3800 5800 0    51   Input Italic 10
++12V2
+Text HLabel 3800 5700 0    51   Input Italic 10
+fromMicroC_A6841SerialDataIN
+Text HLabel 3800 5600 0    51   Input Italic 10
+fromMicroC_A6841CLK1
+Text HLabel 1500 1550 0    51   Input Italic 10
+PushPullOUT
+Text HLabel 1900 3300 3    51   Input Italic 10
+GND
+Text HLabel 4150 6600 3    51   Input Italic 10
+GND
+Text HLabel 5750 6950 3    51   Input Italic 10
+GND
+Text HLabel 2400 3600 2    51   Output Italic 10
+V01
+$Comp
+L Comparator:LM311 UA2
+U 1 1 61C28445
+P 1500 3950
+F 0 "UA2" H 1600 3850 50  0000 L CNN
+F 1 "LM311" H 1650 4050 50  0000 L CNN
+F 2 "LM311P:DIP794W45P254L959H508Q8" H 1500 3950 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 1500 3950 50  0001 C CNN
+	1    1500 3950
+	1    0    0    1   
+$EndComp
+Text HLabel 1400 3550 1    51   Input Italic 10
+GND
+Wire Wire Line
+	1400 3650 1400 3600
+Wire Wire Line
+	1500 3650 1500 3600
+Wire Wire Line
+	1500 3600 1400 3600
+Connection ~ 1400 3600
+Wire Wire Line
+	1400 3600 1400 3550
+Wire Wire Line
+	1800 2900 1800 3950
+Wire Wire Line
+	1650 3250 1100 3250
+Wire Wire Line
+	1100 3250 1100 3850
+Wire Wire Line
+	1100 3850 1200 3850
+Text HLabel 1400 4250 3    51   Input Italic 10
++12V1
+Wire Wire Line
+	2300 3100 2300 3600
+Wire Wire Line
+	2000 2900 1900 2900
+Wire Wire Line
+	1800 2900 1900 2900
+Connection ~ 1900 2900
+Wire Wire Line
+	1800 2900 1450 2900
+Connection ~ 1800 2900
+Wire Wire Line
+	2400 3600 2300 3600
+Connection ~ 2300 3600
+Wire Wire Line
+	2300 3600 2300 3800
+Wire Wire Line
+	2300 3600 1650 3600
+Wire Wire Line
+	1650 3600 1650 3250
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 61C87B3B
+P 4000 2850
+AR Path="/61C87B3B" Ref="R?"  Part="1" 
+AR Path="/61AE72E1/61C87B3B" Ref="R34"  Part="1" 
+F 0 "R34" H 4000 2950 50  0000 C CNN
+F 1 "22" H 4000 2750 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 4000 2850 50  0001 L BNN
+F 3 "" H 4000 2850 50  0001 L BNN
+F 4 "0207" H 4000 2850 50  0001 L BNN "Package"
+F 5 "0" H 4000 2850 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 4000 2850 50  0001 L BNN "Comment"
+F 7 "Compliant" H 4000 2850 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 4000 2850 50  0001 L BNN "Power_Rating"
+	1    4000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C87B41
+P 5050 3900
+AR Path="/61C87B41" Ref="R?"  Part="1" 
+AR Path="/61AE72E1/61C87B41" Ref="R35"  Part="1" 
+F 0 "R35" H 5120 3946 50  0000 L CNN
+F 1 "0,05" H 5120 3855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT" V 4980 3900 50  0001 C CNN
+F 3 "~" H 5050 3900 50  0001 C CNN
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLZ44N U?
+U 1 1 61C87B47
+P 4950 2850
+AR Path="/61C87B47" Ref="U?"  Part="1" 
+AR Path="/61AE72E1/61C87B47" Ref="U18"  Part="1" 
+F 0 "U18" H 5250 2850 50  0000 L CNN
+F 1 "IRLZ44N" H 5150 2750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5200 2775 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 4950 2850 50  0001 L CNN
+	1    4950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 ROp?
+U 1 1 61C87B52
+P 4650 3050
+AR Path="/61C87B52" Ref="ROp?"  Part="1" 
+AR Path="/61AE72E1/61C87B52" Ref="ROp2"  Part="1" 
+F 0 "ROp2" V 4604 3119 50  0000 L CNN
+F 1 "1k" V 4695 3119 50  0000 L CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 4650 3050 50  0001 L BNN
+F 3 "" H 4650 3050 50  0001 L BNN
+F 4 "0207" H 4650 3050 50  0001 L BNN "Package"
+F 5 "0" H 4650 3050 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 4650 3050 50  0001 L BNN "Comment"
+F 7 "Compliant" H 4650 3050 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 4650 3050 50  0001 L BNN "Power_Rating"
+	1    4650 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2650 5050 2150
+Text HLabel 4650 3250 3    51   Input Italic 10
+GND
+Text HLabel 5150 3550 2    51   Output Italic 10
+V02
+$Comp
+L Comparator:LM311 UA3
+U 1 1 61C87B5C
+P 4250 3900
+F 0 "UA3" H 4350 3800 50  0000 L CNN
+F 1 "LM311" H 4400 4000 50  0000 L CNN
+F 2 "LM311P:DIP794W45P254L959H508Q8" H 4250 3900 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 4250 3900 50  0001 C CNN
+	1    4250 3900
+	1    0    0    1   
+$EndComp
+Text HLabel 4150 3500 1    51   Input Italic 10
+GND
+Wire Wire Line
+	4150 3600 4150 3550
+Wire Wire Line
+	4250 3600 4250 3550
+Wire Wire Line
+	4250 3550 4150 3550
+Connection ~ 4150 3550
+Wire Wire Line
+	4150 3550 4150 3500
+Wire Wire Line
+	4550 2850 4550 3900
+Wire Wire Line
+	4400 3200 3850 3200
+Wire Wire Line
+	3850 3200 3850 3800
+Wire Wire Line
+	3850 3800 3950 3800
+Text HLabel 4150 4200 3    51   Input Italic 10
++12V1
+Text HLabel 3900 4000 0    51   Input Italic 10
+ILimit_Vref
+Wire Wire Line
+	3950 4000 3900 4000
+Wire Wire Line
+	5050 3050 5050 3550
+Wire Wire Line
+	4750 2850 4650 2850
+Wire Wire Line
+	4550 2850 4650 2850
+Connection ~ 4650 2850
+Wire Wire Line
+	4550 2850 4200 2850
+Connection ~ 4550 2850
+Wire Wire Line
+	5150 3550 5050 3550
+Connection ~ 5050 3550
+Wire Wire Line
+	5050 3550 5050 3750
+Wire Wire Line
+	5050 3550 4400 3550
+Wire Wire Line
+	4400 3550 4400 3200
+Wire Wire Line
+	3350 2850 3800 2850
+Wire Wire Line
+	5050 4050 5050 4600
+Wire Wire Line
+	2300 2150 2300 2700
+Text Label 1900 2900 0    35   ~ 7
+GS1
+Text Label 4650 2850 0    35   ~ 7
+GS2
+Wire Wire Line
+	5050 2150 2300 2150
+Wire Wire Line
+	2300 4600 5050 4600
+Wire Wire Line
+	3150 2850 3150 1800
+$Comp
+L JJM1-12V:JJM1-12V U19
+U 1 1 61CBA8A0
+P 5900 3250
+F 0 "U19" V 5550 3250 50  0000 C CNN
+F 1 "-" H 5900 2874 50  0000 C CNN
+F 2 "HRS4H-S-DC12V-1C:HRS4HSDC12V1C" H 5900 3250 50  0001 L BNN
+F 3 "" H 5900 3250 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 5900 3250 50  0001 L BNN "STANDARD"
+F 5 "13.9mm" H 5900 3250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Panasonic Electric" H 5900 3250 50  0001 L BNN "MANUFACTURER"
+F 7 "" H 5900 3250 50  0001 L BNN "PARTREV"
+	1    5900 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3800 5700 3650
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 61CBA8B4
+P 6750 2850
+AR Path="/61CBA8B4" Ref="R?"  Part="1" 
+AR Path="/61AE72E1/61CBA8B4" Ref="R36"  Part="1" 
+F 0 "R36" H 6750 2950 50  0000 C CNN
+F 1 "22" H 6750 2750 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 6750 2850 50  0001 L BNN
+F 3 "" H 6750 2850 50  0001 L BNN
+F 4 "0207" H 6750 2850 50  0001 L BNN "Package"
+F 5 "0" H 6750 2850 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 6750 2850 50  0001 L BNN "Comment"
+F 7 "Compliant" H 6750 2850 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 6750 2850 50  0001 L BNN "Power_Rating"
+	1    6750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61CBA8BA
+P 7800 3900
+AR Path="/61CBA8BA" Ref="R?"  Part="1" 
+AR Path="/61AE72E1/61CBA8BA" Ref="R37"  Part="1" 
+F 0 "R37" H 7870 3946 50  0000 L CNN
+F 1 "0,05" H 7870 3855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT" V 7730 3900 50  0001 C CNN
+F 3 "~" H 7800 3900 50  0001 C CNN
+	1    7800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLZ44N U?
+U 1 1 61CBA8C0
+P 7700 2850
+AR Path="/61CBA8C0" Ref="U?"  Part="1" 
+AR Path="/61AE72E1/61CBA8C0" Ref="U20"  Part="1" 
+F 0 "U20" H 8000 2850 50  0000 L CNN
+F 1 "IRLZ44N" H 7900 2750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7950 2775 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 7700 2850 50  0001 L CNN
+	1    7700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 ROp?
+U 1 1 61CBA8CB
+P 7400 3050
+AR Path="/61CBA8CB" Ref="ROp?"  Part="1" 
+AR Path="/61AE72E1/61CBA8CB" Ref="ROp3"  Part="1" 
+F 0 "ROp3" V 7354 3119 50  0000 L CNN
+F 1 "1k" V 7445 3119 50  0000 L CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 7400 3050 50  0001 L BNN
+F 3 "" H 7400 3050 50  0001 L BNN
+F 4 "0207" H 7400 3050 50  0001 L BNN "Package"
+F 5 "0" H 7400 3050 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 7400 3050 50  0001 L BNN "Comment"
+F 7 "Compliant" H 7400 3050 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 7400 3050 50  0001 L BNN "Power_Rating"
+	1    7400 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 2650 7800 2150
+Text HLabel 7400 3250 3    51   Input Italic 10
+GND
+Text HLabel 7900 3550 2    51   Output Italic 10
+V03
+Text HLabel 6900 3500 1    51   Input Italic 10
+GND
+Wire Wire Line
+	6900 3600 6900 3550
+Wire Wire Line
+	7000 3600 7000 3550
+Wire Wire Line
+	7000 3550 6900 3550
+Connection ~ 6900 3550
+Wire Wire Line
+	6900 3550 6900 3500
+Wire Wire Line
+	7300 2850 7300 3900
+Wire Wire Line
+	7150 3200 6600 3200
+Wire Wire Line
+	6600 3200 6600 3800
+Wire Wire Line
+	6600 3800 6700 3800
+Text HLabel 6900 4200 3    51   Input Italic 10
++12V1
+Text HLabel 6650 4000 0    51   Input Italic 10
+ILimit_Vref
+Wire Wire Line
+	6700 4000 6650 4000
+Wire Wire Line
+	7800 3050 7800 3550
+Wire Wire Line
+	7500 2850 7400 2850
+Wire Wire Line
+	7300 2850 7400 2850
+Connection ~ 7400 2850
+Wire Wire Line
+	7300 2850 6950 2850
+Connection ~ 7300 2850
+Wire Wire Line
+	7900 3550 7800 3550
+Connection ~ 7800 3550
+Wire Wire Line
+	7800 3550 7800 3750
+Wire Wire Line
+	7800 3550 7150 3550
+Wire Wire Line
+	7150 3550 7150 3200
+Wire Wire Line
+	6100 2850 6550 2850
+Wire Wire Line
+	7800 4050 7800 4600
+Text Label 7400 2850 0    35   ~ 7
+GS3
+Wire Wire Line
+	7800 2150 5050 2150
+Wire Wire Line
+	5050 4600 7800 4600
+Wire Wire Line
+	5900 2850 5900 1800
+$Comp
+L JJM1-12V:JJM1-12V U21
+U 1 1 61CC16E9
+P 8650 3250
+F 0 "U21" V 8300 3250 50  0000 C CNN
+F 1 "-" H 8650 2874 50  0000 C CNN
+F 2 "HRS4H-S-DC12V-1C:HRS4HSDC12V1C" H 8650 3250 50  0001 L BNN
+F 3 "" H 8650 3250 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 8650 3250 50  0001 L BNN "STANDARD"
+F 5 "13.9mm" H 8650 3250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Panasonic Electric" H 8650 3250 50  0001 L BNN "MANUFACTURER"
+F 7 "" H 8650 3250 50  0001 L BNN "PARTREV"
+	1    8650 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 3800 8450 3650
+Wire Wire Line
+	8850 3650 8850 4800
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 61CC16FD
+P 9500 2850
+AR Path="/61CC16FD" Ref="R?"  Part="1" 
+AR Path="/61AE72E1/61CC16FD" Ref="R38"  Part="1" 
+F 0 "R38" H 9500 2950 50  0000 C CNN
+F 1 "22" H 9500 2750 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 9500 2850 50  0001 L BNN
+F 3 "" H 9500 2850 50  0001 L BNN
+F 4 "0207" H 9500 2850 50  0001 L BNN "Package"
+F 5 "0" H 9500 2850 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 9500 2850 50  0001 L BNN "Comment"
+F 7 "Compliant" H 9500 2850 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 9500 2850 50  0001 L BNN "Power_Rating"
+	1    9500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61CC1703
+P 10550 3900
+AR Path="/61CC1703" Ref="R?"  Part="1" 
+AR Path="/61AE72E1/61CC1703" Ref="R39"  Part="1" 
+F 0 "R39" H 10620 3946 50  0000 L CNN
+F 1 "0,05" H 10620 3855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT" V 10480 3900 50  0001 C CNN
+F 3 "~" H 10550 3900 50  0001 C CNN
+	1    10550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 ROp?
+U 1 1 61CC1714
+P 10150 3050
+AR Path="/61CC1714" Ref="ROp?"  Part="1" 
+AR Path="/61AE72E1/61CC1714" Ref="ROp4"  Part="1" 
+F 0 "ROp4" V 10104 3119 50  0000 L CNN
+F 1 "1k" V 10195 3119 50  0000 L CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 10150 3050 50  0001 L BNN
+F 3 "" H 10150 3050 50  0001 L BNN
+F 4 "0207" H 10150 3050 50  0001 L BNN "Package"
+F 5 "0" H 10150 3050 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 10150 3050 50  0001 L BNN "Comment"
+F 7 "Compliant" H 10150 3050 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 10150 3050 50  0001 L BNN "Power_Rating"
+	1    10150 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 2650 10550 2150
+Text HLabel 10150 3250 3    51   Input Italic 10
+GND
+$Comp
+L Comparator:LM311 UA5
+U 1 1 61CC171D
+P 9750 3900
+F 0 "UA5" H 9850 3800 50  0000 L CNN
+F 1 "LM311" H 9900 4000 50  0000 L CNN
+F 2 "LM311P:DIP794W45P254L959H508Q8" H 9750 3900 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 9750 3900 50  0001 C CNN
+	1    9750 3900
+	1    0    0    1   
+$EndComp
+Text HLabel 9650 3500 1    51   Input Italic 10
+GND
+Wire Wire Line
+	9650 3600 9650 3550
+Wire Wire Line
+	9750 3600 9750 3550
+Wire Wire Line
+	9750 3550 9650 3550
+Connection ~ 9650 3550
+Wire Wire Line
+	9650 3550 9650 3500
+Wire Wire Line
+	10050 2850 10050 3900
+Wire Wire Line
+	9350 3800 9450 3800
+Text HLabel 9650 4200 3    51   Input Italic 10
++12V1
+Text HLabel 9400 4000 0    51   Input Italic 10
+ILimit_Vref
+Wire Wire Line
+	9450 4000 9400 4000
+Wire Wire Line
+	10250 2850 10150 2850
+Wire Wire Line
+	10050 2850 10150 2850
+Connection ~ 10150 2850
+Wire Wire Line
+	10050 2850 9700 2850
+Connection ~ 10050 2850
+Wire Wire Line
+	8850 2850 9300 2850
+Wire Wire Line
+	10550 4050 10550 4600
+Text Label 10150 2850 0    35   ~ 7
+GS4
+Wire Wire Line
+	10550 2150 7800 2150
+Wire Wire Line
+	7800 4600 9900 4600
+Wire Wire Line
+	8650 2850 8650 1800
+Connection ~ 5050 2150
+Connection ~ 5050 4600
+Connection ~ 7800 2150
+Connection ~ 7800 4600
+Wire Wire Line
+	10600 2150 10550 2150
+Connection ~ 10550 2150
+Wire Wire Line
+	10600 4600 10550 4600
+Connection ~ 10550 4600
+Wire Wire Line
+	1050 2900 900  2900
+Wire Wire Line
+	900  2900 900  1800
+Wire Wire Line
+	900  1800 3150 1800
+Wire Wire Line
+	5900 1800 8650 1800
+Wire Wire Line
+	5900 1800 3150 1800
+Connection ~ 5900 1800
+Connection ~ 3150 1800
+Wire Wire Line
+	3150 1800 3150 1550
+Wire Wire Line
+	3150 1550 1500 1550
+Text Notes 850  5100 0    50   ~ 10
+Las resistencias R10, R20, \nR40 y R40 de 22 Ohm deberia \nser de 1W
+Wire Wire Line
+	3350 5000 5850 5000
+Wire Wire Line
+	5850 5000 5850 5800
+Wire Wire Line
+	5850 5800 5650 5800
+Wire Wire Line
+	3350 3650 3350 5000
+Wire Wire Line
+	6100 5900 5650 5900
+Wire Wire Line
+	6100 3650 6100 5900
+Wire Wire Line
+	8850 4800 6350 4800
+Wire Wire Line
+	6350 6000 5650 6000
+Wire Wire Line
+	6350 4800 6350 6000
+Wire Wire Line
+	5650 5600 6700 5600
+Wire Wire Line
+	6700 5700 5650 5700
+Wire Wire Line
+	6700 6100 5650 6100
+Text HLabel 5700 3800 3    51   Input Italic 10
++12V2
+Text HLabel 8450 3800 3    51   Input Italic 10
++12V2
+Text HLabel 1150 4050 0    51   Input Italic 10
+ILimit_Vref
+$Comp
+L Comparator:LM311 UA4
+U 1 1 61CBA8D4
+P 7000 3900
+F 0 "UA4" H 7100 3800 50  0000 L CNN
+F 1 "LM311" H 7150 4000 50  0000 L CNN
+F 2 "LM311P:DIP794W45P254L959H508Q8" H 7000 3900 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 7000 3900 50  0001 C CNN
+	1    7000 3900
+	1    0    0    1   
+$EndComp
+Text HLabel 6700 5600 2    51   Output Italic 10
+fromA6841_PowerEnable
+Text HLabel 6700 5700 2    51   Output Italic 10
+fromA6841_FeedbackLoopSelection
+Text HLabel 6700 6100 2    51   Output Italic 10
+fromA6841_toFanEnable
+$Comp
+L Transistor_FET:IRLZ44N U?
+U 1 1 627CD5A8
+P 10450 2850
+AR Path="/627CD5A8" Ref="U?"  Part="1" 
+AR Path="/61AE72E1/627CD5A8" Ref="U22"  Part="1" 
+F 0 "U22" H 10750 2850 50  0000 L CNN
+F 1 "IRLZ44N" H 10650 2750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10700 2775 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 10450 2850 50  0001 L CNN
+	1    10450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3250 9350 3250
+Wire Wire Line
+	9350 3250 9350 3800
+Wire Wire Line
+	10650 3550 10550 3550
+Wire Wire Line
+	10550 3750 10550 3550
+Connection ~ 10550 3550
+Wire Wire Line
+	10550 3050 10550 3550
+Wire Wire Line
+	9800 3250 9800 3550
+Wire Wire Line
+	9800 3550 10550 3550
+Text HLabel 2950 2850 1    51   Input Italic 10
+GND
+Text HLabel 8450 2850 1    51   Input Italic 10
+GND
+Text HLabel 5700 2850 1    51   Input Italic 10
+GND
+Text HLabel 9900 4800 3    51   Input Italic 10
+GND
+Wire Wire Line
+	9900 4800 9900 4600
+Connection ~ 9900 4600
+Wire Wire Line
+	9900 4600 10550 4600
+Text HLabel 10650 3550 2    51   Output Italic 10
+V05
+$EndSCHEMATC

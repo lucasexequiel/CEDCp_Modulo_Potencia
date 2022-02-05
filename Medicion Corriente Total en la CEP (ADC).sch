@@ -1,0 +1,298 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6100 4200 5950 4200
+Wire Wire Line
+	6100 4250 6100 4200
+Connection ~ 6100 4200
+Wire Wire Line
+	6200 3600 6200 3650
+Wire Wire Line
+	6350 3600 6350 3650
+Wire Wire Line
+	6350 3650 6200 3650
+Connection ~ 6200 3650
+$Comp
+L 3296W-1-254LF:3296W-1-254LF U?
+U 1 1 619DB09F
+P 6300 4450
+AR Path="/619DB09F" Ref="U?"  Part="1" 
+AR Path="/619D57C3/619DB09F" Ref="U2"  Part="1" 
+F 0 "U2" V 6400 4650 50  0000 R CNN
+F 1 "250k" V 6500 4700 50  0000 R CNN
+F 2 "3296W-1-254LF:TRIM_3296W-1-254LF" H 6300 4450 50  0001 L BNN
+F 3 "" H 6300 4450 50  0001 L BNN
+F 4 "05/16" H 6300 4450 50  0001 L BNN "PARTREV"
+F 5 "Bourns" H 6300 4450 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendation" H 6300 4450 50  0001 L BNN "STANDARD"
+	1    6300 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4150 6200 4800
+$Comp
+L Cargaelectronica:OPA604 U?
+U 1 1 619DB0A6
+P 6150 3900
+AR Path="/619DB0A6" Ref="U?"  Part="1" 
+AR Path="/619D57C3/619DB0A6" Ref="U1"  Part="1" 
+F 0 "U1" H 6400 3800 50  0000 L CNN
+F 1 "OPA604" H 6300 4050 50  0000 L CNN
+F 2 "OPA604AP:DIP794W45P254L959H508Q8" H 6400 4000 50  0001 C CNN
+F 3 "" H 6400 4000 50  0001 C CNN
+	1    6150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4800 6300 4800
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 619DB0B3
+P 5350 3900
+AR Path="/619DB0B3" Ref="R?"  Part="1" 
+AR Path="/619D57C3/619DB0B3" Ref="R2"  Part="1" 
+F 0 "R2" H 5350 4000 50  0000 C CNN
+F 1 "22k" H 5350 3800 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 5350 3900 50  0001 L BNN
+F 3 "" H 5350 3900 50  0001 L BNN
+F 4 "0207" H 5350 3900 50  0001 L BNN "Package"
+F 5 "0" H 5350 3900 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 5350 3900 50  0001 L BNN "Comment"
+F 7 "Compliant" H 5350 3900 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 5350 3900 50  0001 L BNN "Power_Rating"
+	1    5350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 619DB0BE
+P 5350 3350
+AR Path="/619DB0BE" Ref="R?"  Part="1" 
+AR Path="/619D57C3/619DB0BE" Ref="R1"  Part="1" 
+F 0 "R1" H 5350 3450 50  0000 C CNN
+F 1 "330" H 5350 3250 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 5350 3350 50  0001 L BNN
+F 3 "" H 5350 3350 50  0001 L BNN
+F 4 "0207" H 5350 3350 50  0001 L BNN "Package"
+F 5 "0" H 5350 3350 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 5350 3350 50  0001 L BNN "Comment"
+F 7 "Compliant" H 5350 3350 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 5350 3350 50  0001 L BNN "Power_Rating"
+	1    5350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 619DB0C9
+P 6000 2950
+AR Path="/619DB0C9" Ref="R?"  Part="1" 
+AR Path="/619D57C3/619DB0C9" Ref="R6"  Part="1" 
+F 0 "R6" H 6000 3050 50  0000 C CNN
+F 1 "8.2k" H 6000 2850 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 6000 2950 50  0001 L BNN
+F 3 "" H 6000 2950 50  0001 L BNN
+F 4 "0207" H 6000 2950 50  0001 L BNN "Package"
+F 5 "0" H 6000 2950 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 6000 2950 50  0001 L BNN "Comment"
+F 7 "Compliant" H 6000 2950 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 6000 2950 50  0001 L BNN "Power_Rating"
+	1    6000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 619DB0D4
+P 6550 2950
+AR Path="/619DB0D4" Ref="R?"  Part="1" 
+AR Path="/619D57C3/619DB0D4" Ref="R7"  Part="1" 
+F 0 "R7" H 6550 3050 50  0000 C CNN
+F 1 "560" H 6550 2850 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 6550 2950 50  0001 L BNN
+F 3 "" H 6550 2950 50  0001 L BNN
+F 4 "0207" H 6550 2950 50  0001 L BNN "Package"
+F 5 "0" H 6550 2950 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 6550 2950 50  0001 L BNN "Comment"
+F 7 "Compliant" H 6550 2950 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 6550 2950 50  0001 L BNN "Power_Rating"
+	1    6550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 619DB0F1
+P 5350 4200
+AR Path="/619DB0F1" Ref="R?"  Part="1" 
+AR Path="/619D57C3/619DB0F1" Ref="R3"  Part="1" 
+F 0 "R3" H 5350 4300 50  0000 C CNN
+F 1 "22k" H 5350 4100 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 5350 4200 50  0001 L BNN
+F 3 "" H 5350 4200 50  0001 L BNN
+F 4 "0207" H 5350 4200 50  0001 L BNN "Package"
+F 5 "0" H 5350 4200 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 5350 4200 50  0001 L BNN "Comment"
+F 7 "Compliant" H 5350 4200 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 5350 4200 50  0001 L BNN "Power_Rating"
+	1    5350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 619DB0FD
+P 5350 4500
+AR Path="/619DB0FD" Ref="R?"  Part="1" 
+AR Path="/619D57C3/619DB0FD" Ref="R4"  Part="1" 
+F 0 "R4" H 5350 4600 50  0000 C CNN
+F 1 "22k" H 5350 4400 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 5350 4500 50  0001 L BNN
+F 3 "" H 5350 4500 50  0001 L BNN
+F 4 "0207" H 5350 4500 50  0001 L BNN "Package"
+F 5 "0" H 5350 4500 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 5350 4500 50  0001 L BNN "Comment"
+F 7 "Compliant" H 5350 4500 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 5350 4500 50  0001 L BNN "Power_Rating"
+	1    5350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 619DB109
+P 5350 4800
+AR Path="/619DB109" Ref="R?"  Part="1" 
+AR Path="/619D57C3/619DB109" Ref="R5"  Part="1" 
+F 0 "R5" H 5350 4900 50  0000 C CNN
+F 1 "22k" H 5350 4700 50  0000 C CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 5350 4800 50  0001 L BNN
+F 3 "" H 5350 4800 50  0001 L BNN
+F 4 "0207" H 5350 4800 50  0001 L BNN "Package"
+F 5 "0" H 5350 4800 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 5350 4800 50  0001 L BNN "Comment"
+F 7 "Compliant" H 5350 4800 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 5350 4800 50  0001 L BNN "Power_Rating"
+	1    5350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3900 5150 3900
+Wire Wire Line
+	5100 4200 5150 4200
+Wire Wire Line
+	5100 4500 5150 4500
+Wire Wire Line
+	5100 4800 5150 4800
+Wire Wire Line
+	5550 3900 5650 3900
+Wire Wire Line
+	5650 3900 5650 4200
+Wire Wire Line
+	5650 4800 5550 4800
+Connection ~ 5650 3900
+Wire Wire Line
+	5650 3900 5900 3900
+Wire Wire Line
+	5550 4500 5650 4500
+Connection ~ 5650 4500
+Wire Wire Line
+	5650 4500 5650 4800
+Wire Wire Line
+	5550 4200 5650 4200
+Connection ~ 5650 4200
+Wire Wire Line
+	5650 4200 5650 4500
+Wire Wire Line
+	5900 3800 5650 3800
+Wire Wire Line
+	5650 3800 5650 3350
+Wire Wire Line
+	5550 3350 5650 3350
+Wire Wire Line
+	5650 2950 5650 3350
+Connection ~ 5650 3350
+Wire Wire Line
+	6850 2950 6850 3900
+Wire Wire Line
+	6850 3900 6600 3900
+Wire Wire Line
+	7050 3900 6850 3900
+Connection ~ 6850 3900
+Wire Wire Line
+	5650 2950 5800 2950
+Wire Wire Line
+	6200 2950 6350 2950
+Wire Wire Line
+	6750 2950 6850 2950
+Text Notes 4950 5300 0    50   ~ 0
+R29, R31, R34 y R35 al 1%
+Text Notes 5550 2600 0    50   ~ 0
+R36, R37 y R41 al 1%
+Text Notes 800  1100 0    118  ~ 24
+Medicion Corriente Total en la CEP (ADC)
+Text HLabel 7050 3900 2    51   Output Italic 10
+toADC_LoadCurrent
+Text HLabel 5100 3900 0    51   Input Italic 10
+V01
+Text HLabel 5100 4200 0    51   Input Italic 10
+V02
+Text HLabel 5100 4500 0    51   Input Italic 10
+V03
+Text HLabel 5100 4800 0    51   Input Italic 10
+V04
+Text HLabel 5950 4500 3    51   Input Italic 10
+GND
+Text HLabel 6350 3300 1    51   Input Italic 10
+GND
+Text HLabel 5150 3350 0    51   Input Italic 10
+GND
+Text HLabel 6200 3600 1    51   Input Italic 10
++12V1
+Text HLabel 6500 4450 2    51   Input Italic 10
+-12V
+Text HLabel 6100 4250 3    51   Input Italic 10
+-12V
+$Comp
+L Capacitor_2:C315C222K1R5CA C?
+U 1 1 61F329FB
+P 6350 3300
+AR Path="/61F329FB" Ref="C?"  Part="1" 
+AR Path="/61A37F95/61F329FB" Ref="C?"  Part="1" 
+AR Path="/61D43C1D/61F329FB" Ref="C?"  Part="1" 
+AR Path="/619D57C3/61F329FB" Ref="C2"  Part="1" 
+F 0 "C2" V 6400 3500 60  0000 C CNN
+F 1 "0.1u" V 6500 3500 60  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 6500 2940 60  0001 C CNN
+F 3 "" H 6350 3300 60  0000 C CNN
+	1    6350 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitor_2:C315C222K1R5CA C?
+U 1 1 61F3386E
+P 5950 4200
+AR Path="/61F3386E" Ref="C?"  Part="1" 
+AR Path="/61A37F95/61F3386E" Ref="C?"  Part="1" 
+AR Path="/61D43C1D/61F3386E" Ref="C?"  Part="1" 
+AR Path="/619D57C3/61F3386E" Ref="C1"  Part="1" 
+F 0 "C1" V 6000 4000 60  0000 C CNN
+F 1 "0.1u" V 6100 4000 60  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 6100 3840 60  0001 C CNN
+F 3 "" H 5950 4200 60  0000 C CNN
+	1    5950 4200
+	0    1    1    0   
+$EndComp
+Text Notes 7400 4750 0    59   ~ 12
+C13 y C15 son capacitores de tantalio.Deben conectarse lo mas cerca\nposible de los pines de alimentacion del U20
+Text Notes 7400 5000 0    59   ~ 12
+R29, R31, R34, R35, R36, R37 y R41 con tolerancia del 1%
+$EndSCHEMATC

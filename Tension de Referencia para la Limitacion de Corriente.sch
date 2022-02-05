@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1050 1300 0    118  ~ 24
+Tension de Referencia para la Limitacion de Corriente
+$Comp
+L Regulator_Linear:LM337_TO220 U2
+U 1 1 61AA179D
+P 5350 4600
+F 0 "U2" H 5350 4451 50  0000 C CNN
+F 1 "LM337_TO220" H 5350 4360 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5350 4400 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm337-n.pdf" H 5350 4600 50  0001 C CNN
+	1    5350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 61AA3548
+P 4650 4050
+F 0 "C4" H 4765 4096 50  0000 L CNN
+F 1 "10u" H 4765 4005 50  0000 L CNN
+F 2 "" H 4650 4050 50  0001 C CNN
+F 3 "~" H 4650 4050 50  0001 C CNN
+	1    4650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C5
+U 1 1 61AA442F
+P 6600 4050
+F 0 "C5" H 6715 4096 50  0000 L CNN
+F 1 "10u" H 6715 4005 50  0000 L CNN
+F 2 "" H 6600 4050 50  0001 C CNN
+F 3 "~" H 6600 4050 50  0001 C CNN
+	1    6600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 61AA6CB8
+P 5900 4250
+AR Path="/61AA6CB8" Ref="R?"  Part="1" 
+AR Path="/61A9D1C9/61AA6CB8" Ref="R14"  Part="1" 
+F 0 "R14" V 5854 4319 50  0000 L CNN
+F 1 "120" V 5945 4319 50  0000 L CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 5900 4250 50  0001 L BNN
+F 3 "" H 5900 4250 50  0001 L BNN
+F 4 "0207" H 5900 4250 50  0001 L BNN "Package"
+F 5 "0" H 5900 4250 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 5900 4250 50  0001 L BNN "Comment"
+F 7 "Compliant" H 5900 4250 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 5900 4250 50  0001 L BNN "Power_Rating"
+	1    5900 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L 1623934-1:1623934-1 R?
+U 1 1 61AA8C9E
+P 5900 3750
+AR Path="/61AA8C9E" Ref="R?"  Part="1" 
+AR Path="/61A9D1C9/61AA8C9E" Ref="R13"  Part="1" 
+F 0 "R13" V 5854 3819 50  0000 L CNN
+F 1 "120" V 5945 3819 50  0000 L CNN
+F 2 "1623934-1:RESAD1093W54L680D250" H 5900 3750 50  0001 L BNN
+F 3 "" H 5900 3750 50  0001 L BNN
+F 4 "0207" H 5900 3750 50  0001 L BNN "Package"
+F 5 "0" H 5900 3750 50  0001 L BNN "Resistance"
+F 6 "1623934-1" H 5900 3750 50  0001 L BNN "Comment"
+F 7 "Compliant" H 5900 3750 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 ".25 W" H 5900 3750 50  0001 L BNN "Power_Rating"
+	1    5900 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 4600 5900 4600
+Wire Wire Line
+	4650 4200 4650 4600
+Wire Wire Line
+	4650 4600 5050 4600
+Wire Wire Line
+	6600 4200 6600 4600
+Connection ~ 6600 4600
+Wire Wire Line
+	6600 4600 7600 4600
+Wire Wire Line
+	5350 4300 5350 4000
+Wire Wire Line
+	5350 4000 5900 4000
+Wire Wire Line
+	5900 4000 5900 4050
+Wire Wire Line
+	5900 4450 5900 4600
+Connection ~ 5900 4600
+Wire Wire Line
+	5900 4600 6600 4600
+Wire Wire Line
+	6150 3300 6050 3300
+Wire Wire Line
+	5900 3450 5900 3550
+Wire Wire Line
+	5900 3950 5900 4000
+Connection ~ 5900 4000
+$Comp
+L Device:R_POT RV1
+U 1 1 61AA8E7D
+P 5900 3300
+F 0 "RV1" H 5831 3346 50  0000 R CNN
+F 1 "500" H 5831 3255 50  0000 R CNN
+F 2 "" H 5900 3300 50  0001 C CNN
+F 3 "~" H 5900 3300 50  0001 C CNN
+	1    5900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3150 5900 3050
+Wire Wire Line
+	5900 3050 6150 3050
+Wire Wire Line
+	6150 3050 6150 3300
+Wire Wire Line
+	4650 2850 4650 3900
+Wire Wire Line
+	7200 2850 7200 3200
+Wire Wire Line
+	5900 3050 5900 2850
+Connection ~ 5900 3050
+Connection ~ 5900 2850
+Wire Wire Line
+	5900 2850 4650 2850
+Wire Wire Line
+	6600 3900 6600 2850
+Wire Wire Line
+	5900 2850 6600 2850
+Connection ~ 6600 2850
+Wire Wire Line
+	6600 2850 7200 2850
+Text HLabel 4300 4600 0    51   Input Italic 10
+-12V
+Connection ~ 4650 4600
+Wire Wire Line
+	4300 4600 4650 4600
+Text HLabel 7600 4600 2    51   Output Italic 10
+-Vadj
+Text HLabel 7200 3200 3    51   Input Italic 10
+GND
+$EndSCHEMATC

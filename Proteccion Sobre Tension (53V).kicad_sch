@@ -479,7 +479,6 @@
     )
   )
 
-
   (junction (at 121.92 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 73ee7e03-97a8-4121-b568-c25f3934a935)
   )
@@ -488,7 +487,7 @@
   )
 
   (no_connect (at 152.4 81.28) (uuid 74eb43f7-08ae-41a0-850f-67160b626975))
-  (no_connect (at 154.94 81.28) (uuid 74eb43f7-08ae-41a0-850f-67160b626975))
+  (no_connect (at 154.94 81.28) (uuid 74eb43f7-08ae-41a0-850f-67160b626976))
 
   (wire (pts (xy 138.43 123.19) (xy 129.54 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -644,6 +643,10 @@
     (uuid b8d9d478-6137-4dcc-a228-e37be3e10450)
   )
 
+  (label "F_In" (at 154.5336 146.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid be696f67-1bda-4450-b317-f94d0a469321)
+  )
   (label "3.5V" (at 133.35 71.12 0)
     (effects (font (size 1.4986 1.4986) (thickness 0.2997) bold) (justify left bottom))
     (uuid f6a3288e-9575-42bb-af05-a920d59aded8)

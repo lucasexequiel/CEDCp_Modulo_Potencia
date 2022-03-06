@@ -2355,7 +2355,7 @@
       (reference "C12") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000061d43c1d/52cf40d9-ee25-4233-b2a2-be5938012faa"
-      (reference "C13") (unit 1) (value "1u") (footprint "CEDCp:Cap_1uF")
+      (reference "C13") (unit 1) (value "10u") (footprint "CEDCp:Cap_1uF")
     )
     (path "/00000000-0000-0000-0000-000061a37f95/00000000-0000-0000-0000-000061f3b32d"
       (reference "C14") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm")
@@ -2364,7 +2364,7 @@
       (reference "C15") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000061c5d55f/00000000-0000-0000-0000-000061c5f62c"
-      (reference "D1") (unit 1) (value "1N47xxA") (footprint "Diode_THT:D_DO-15_P10.16mm_Horizontal")
+      (reference "D1") (unit 1) (value "BZX384B3V9") (footprint "Diode_THT:D_DO-15_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061a37f95/00000000-0000-0000-0000-000061a43ea8"
       (reference "D2") (unit 1) (value "BZX384B3V9") (footprint "Diode_THT:D_DO-15_P10.16mm_Horizontal")
@@ -2427,7 +2427,7 @@
       (reference "R1") (unit 1) (value "2k7") (footprint "CEDCp:Resistencia_0,25W")
     )
     (path "/00000000-0000-0000-0000-000061c5d55f/69c46205-30fe-47aa-976f-35214efcf113"
-      (reference "R2") (unit 1) (value "2k7") (footprint "CEDCp:Resistencia_0,25W")
+      (reference "R2") (unit 1) (value "1k2") (footprint "CEDCp:Resistencia_0,25W")
     )
     (path "/00000000-0000-0000-0000-000061c5d55f/068a1e6e-a9d1-4e34-9e2d-4cc19618ec4e"
       (reference "R3") (unit 1) (value "2k2") (footprint "CEDCp:Resistencia_0,25W")
@@ -2640,7 +2640,7 @@
       (reference "UA5") (unit 1) (value "LM311") (footprint "CEDCp:LM311P")
     )
     (path "/00000000-0000-0000-0000-000061c5d55f/00000000-0000-0000-0000-000061e8c2e5"
-      (reference "UB1") (unit 1) (value "74HC4051N,652") (footprint "CEDCp:74HC4051M")
+      (reference "UB1") (unit 1) (value "74HC4051N") (footprint "CEDCp:74HC4051M")
     )
   )
 )

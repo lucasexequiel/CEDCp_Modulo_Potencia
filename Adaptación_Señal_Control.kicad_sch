@@ -972,6 +972,10 @@
     (effects (font (size 1.4986 1.4986) (thickness 0.2997) bold) (justify left bottom))
     (uuid 0a79db37-f1d9-40b1-a24d-8bdfb8f637e2)
   )
+  (text "8-channel analog multiplexer/demultiplexer" (at 75.1078 138.557 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 104a507c-530f-4bfd-bfb2-da982b2d0e9f)
+  )
   (text "R4, R14, R5 y R7 con tolerancia del 1%" (at 60.579 66.929 0)
     (effects (font (size 1.4986 1.4986) (thickness 0.2997) bold) (justify left bottom))
     (uuid 188eabba-12a3-47b7-9be1-03f0c5a948eb)
@@ -1001,6 +1005,11 @@
   (text "C4 y C2 son capacitores ceramico" (at 61.087 61.976 0)
     (effects (font (size 1.4986 1.4986) (thickness 0.2997) bold) (justify left bottom))
     (uuid d5c86a84-6c8b-48b5-b583-2fe7052421ab)
+  )
+  (text "En este caso esta funcionando como un multiplexor, \nuniendo las señales de error a la señal de salida."
+    (at 74.2442 144.4752 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e8b02f6a-e3b8-4a3c-97bf-3a3e88b601e5)
   )
 
   (label "PushPullIN" (at 202.565 100.33 0)

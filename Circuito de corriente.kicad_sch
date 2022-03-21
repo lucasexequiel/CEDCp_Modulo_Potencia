@@ -2381,6 +2381,9 @@
     (path "/8f02e0a9-04f8-464b-8114-620e1510f621"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
+    (path "/00000000-0000-0000-0000-000061ae72e1/423251c3-8124-4246-b3ae-ad4320503a7b"
+      (reference "HS1") (unit 1) (value "Heatsink") (footprint "Heatsink:Heatsink_125x35x50mm_3xFixationM3")
+    )
     (path "/2126332a-13f7-4f4b-9d6b-4a5751b83815"
       (reference "J1") (unit 1) (value "SALIDAS") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )

@@ -517,7 +517,7 @@
     (uuid fd693e1b-ee8d-4a26-aae0-561ba4b09a82)
   )
 
-  (text "U9 es un preset multivueltas usado para\najustar de forma precisa el voltaje de 1.1V requeridos.\nEl valor de R19 ya considera la posibilidad de que el \npreset quede con una resitencia de 0 al manipularse \npor tanto limita la corriente a valores adecuados"
+  (text "U9 es un preset multivueltas usado para\najustar de forma precisa el voltaje de 1.1V requeridos."
     (at 195.58 158.115 0)
     (effects (font (size 1.4986 1.4986) (thickness 0.2997) bold) (justify left bottom))
     (uuid 0674c5a1-ca4b-4b6b-aa60-3847e1a37d52)

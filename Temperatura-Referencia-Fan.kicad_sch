@@ -444,7 +444,7 @@
     (effects (font (size 1.2954 1.2954) (thickness 0.2591) bold italic) (justify right))
     (uuid 752e159d-a109-4c25-9baa-b0ea5540a3de)
   )
-  (hierarchical_label "fromA6841_FanControl" (shape input) (at 228.981 103.251 180)
+  (hierarchical_label "fromA6841_toFanEnable" (shape input) (at 228.981 103.251 180)
     (effects (font (size 1.2954 1.2954) (thickness 0.2591) bold italic) (justify right))
     (uuid 84b2ceb1-0c27-48ce-a01e-9adb91d65ce4)
   )

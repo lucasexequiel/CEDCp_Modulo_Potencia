@@ -1037,7 +1037,7 @@
     (effects (font (size 1.2954 1.2954) (thickness 0.2591) bold italic) (justify left))
     (uuid 1765d6b9-ca0e-49c2-8c3c-8ab35eb3909b)
   )
-  (hierarchical_label "fromMicroC_FeedbackLoopSelection" (shape input) (at 58.42 107.95 180)
+  (hierarchical_label "fromA6841_FeedbackLoopSelection" (shape input) (at 58.42 107.95 180)
     (effects (font (size 1.2954 1.2954) (thickness 0.2591) bold italic) (justify right))
     (uuid 2a6ee718-8cdf-4fa6-be7c-8fe885d98fd7)
   )

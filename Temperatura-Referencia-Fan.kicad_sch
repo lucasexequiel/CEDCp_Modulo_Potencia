@@ -460,7 +460,7 @@
   (symbol (lib_id "Sensor_Temperature:LM35-NEB") (at 61.341 103.251 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a0ba72)
-    (property "Reference" "U13" (id 0) (at 52.959 102.0826 0)
+    (property "Reference" "U25" (id 0) (at 52.959 102.0826 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LM35-NEB" (id 1) (at 52.959 104.394 0)

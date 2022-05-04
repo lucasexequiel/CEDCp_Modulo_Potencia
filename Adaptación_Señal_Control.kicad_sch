@@ -984,6 +984,11 @@
     (effects (font (size 1.4986 1.4986) (thickness 0.2997) bold) (justify left bottom))
     (uuid 188eabba-12a3-47b7-9be1-03f0c5a948eb)
   )
+  (text "Resistencias de offset 250k en vez de 100k\nCapacitores de desacople.."
+    (at 206.7814 51.2826 0)
+    (effects (font (size 3 3) bold italic) (justify left bottom))
+    (uuid 2e73d0df-bd41-41b6-844e-3d2a19ffaea7)
+  )
   (text "C30 y C31 son capacitores de tantalio.Deben conectarse\nlo mas cerca posible de los pines de alimentacion del U60"
     (at 210.82 68.58 0)
     (effects (font (size 1.4986 1.4986) (thickness 0.2997) bold) (justify left bottom))
